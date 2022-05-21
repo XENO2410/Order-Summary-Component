@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 500, 700, 900;
+  font-size: 16px;
+  text-align: center;
+  background-image: url(/images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+/* MAIN BOX */
+.outbox{
+  border: 1px solid grey;
+  border-radius: 16px;
+  height: 570px;
+  width: 338px;
+  margin: auto;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+  background-color: whitesmoke;
+}
+/* ALL things except the image starts from here */
+ .main{
+  padding-top: 48px;
+}
+
+/* MAIN IMG STYLING */
+.Main-img {
+  width: 338px;
+  border-image: round;
+ border-top-left-radius: 14px;
+ border-top-right-radius: 14px;
+  margin-top: 0px
+  
+}
+
+
+/* Content styling */
+
+.content {
+  padding-top: 10px;
+}
+.content-1 {
+  position: relative;
+  margin-right: 4px ;
+  margin-top: 6px;
+ }
+ .content-2{
+  color: white;
+}
+
+.button1{
+  padding-top: 10px;
+  padding-bottom: 12px;
+  border-radius: 11px;
+  background-color:  hsl(225, 100%, 93%);
+  width: 287px;
+  margin: auto;
+  margin-top: 33px;
+  border: 0px;
+}
+.button2{
+
+  padding-top: 12px;
+  padding-bottom: 11px;
+  border: 10px ;
+  border-radius: 10px;
+  background-color: hsl(245, 75%, 52%);
+  width: 287px;
+  margin: auto;
+  margin-top: 33px;
+  border: 0px;
+}
+.button3{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 10px;
+  margin-top: 2px;
+
+}
+.button1a{
+  position: absolute;
+   margin-left: 222px;
+   margin-bottom: -29px;
+   margin-top: -32px;
+ 
+ }
+ .button2:hover{
+   opacity: 0.8;
+ }
+ .button3:hover{
+  opacity: 0.5;
+}
+.button1a:hover{
+  opacity: 0.5;
+}
+/*Button designing removing border nad adding color hover n all */
+
+.B1{
+  border: 0ex;
+  background-color: hsl(225, 100%, 94%);
+}
+.B1:hover{
+opacity: 0.8;
+}
+.B2{
+  border: 0ex;
+  background-color: hsl(245, 75%, 52%);
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+.B3 {
+  border: 0ex ;
+  background-color: whitesmoke;
+
+
+}
+/*images styling */
+.img1{
+  position: absolute;
+  margin-top: 2px;
+  margin-left: 3px;
+}
+
+
+
+
+
